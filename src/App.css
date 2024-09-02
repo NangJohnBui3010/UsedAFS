@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.navigation-bar > h1 {
+  flex-grow: 0;
+}
+
+.navigation-bar > .search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+  height: 40px;
+  font-size: larger;
+}
+
+.navigation-bar > button {
+  flex-grow: 0;
+  margin-left: 10px;
+}

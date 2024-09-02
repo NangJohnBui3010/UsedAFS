@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import ItemCard from './component/ItemCard';
+import NavBar from './component/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <h1>UsedAFS</h1>
+      <NavBar/>
+      <ItemCard item = "book" amount = {2}/>
     </div>
   );
 }
